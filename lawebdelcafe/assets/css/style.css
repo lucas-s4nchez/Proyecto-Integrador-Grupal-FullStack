@@ -1,58 +1,23 @@
-/* Variables  */
-:root {
-  --main-color: #76520e;
-  --secondary-color: #8b5d33;
-  --background-color: #f0ead2;
-}
+/*importaciones de archivos que contienen los estilos*/
+@import url(colors.css);
+@import url(gridd.css);
+@import url(header.css);
+@import url(destkop1.css);
+@import url(nosotros.css);
+@import url(productos.css);
+@import url(galeria.css);
+@import url(footer.css); 
 
-/* Utilidades */
-.justify-end {
-  justify-content: end;
-}
-.active {
-  border-bottom: 3px solid var(--secondary-color);
-}
-.index-1 {
-  z-index: 1;
-}
-.text-white {
-  color: #fff;
-}
 
-/* CLases de componentes de la pagina  */
-.btn-navbar {
-  margin-left: 10px;
-  background-color: var(--background-color);
-  color: var(--main-color);
-  border-radius: 5px;
-  padding: 5px 15px;
-  outline-offset: none;
-}
-.container-logo {
-  height: 60px;
-  width: 100px;
-  background-image: url("../images/Logo.png");
-  background-size: cover;
-  background-position: center;
-}
-.navbar-button {
-  background-color: transparent;
-  outline: none;
-  border: none;
-  cursor: pointer;
-  display: none;
-}
-@media (max-width: 767px) {
-  .navbar-button {
-    display: block;
-  }
-}
 
-video {
-  object-fit: cover;
-  width: 100%;
+*{/*quitar los rellenos y bordes que tenga el navegador*/
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+html{
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
+
+

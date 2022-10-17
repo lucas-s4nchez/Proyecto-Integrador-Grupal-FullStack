@@ -1,0 +1,13 @@
+.seccion-destkop1{
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.seccion-destkop1>.mirar{
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-color: rgb(92, 141, 185);
+}
+.mirar>.btn-mirar{
+    margin-left: 40%;
+}
