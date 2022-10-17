@@ -1,0 +1,32 @@
+.seccion-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+/*estilo del logo*/
+.seccion-header > .logo{
+    width: 15%;
+}
+.logo-img{
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    object-position: center;
+}
+/*estilo de navegacion*/
+.navegacion{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    width: 70%;
+}
+.navegacion-btn{
+    width: 20%;
+    align-items: flex-end;
+}

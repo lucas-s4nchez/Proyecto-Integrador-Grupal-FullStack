@@ -1,0 +1,25 @@
+/*contenedor de la seccion nosotros*/
+.nosotros1{
+    margin-top: 100vh;
+    background-color: rgba(85, 187, 187, 0.477);
+    margin-top: 100vh;
+    padding: 50px;
+    margin-top: 10px;
+    min-width: 80%;
+    height: 70vh;
+    gap: 10px;
+    z-index: 10;
+}
+.nosotros1 > .fondo1{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    opacity: 0.3;
+}
+
+.nstext{
+    z-index: 9;
+}
+.nsimagenes{
+    background-color: rgba(0, 72, 255, 0.641);
+}
