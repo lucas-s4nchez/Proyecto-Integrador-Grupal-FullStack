@@ -1,25 +1,56 @@
-/*contenedor de la seccion nosotros*/
-.nosotros1{
-    margin-top: 100vh;
-    background-color: rgba(85, 187, 187, 0.477);
-    margin-top: 100vh;
-    padding: 50px;
-    margin-top: 10px;
-    min-width: 80%;
-    height: 70vh;
-    gap: 10px;
-    z-index: 10;
+/*Estilo de la seccion*/
+.seccion-sobrenosotros{
+    background-color: rgba(123, 198, 173, 0.512);
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(../images/10.jpg);
+    background-size: cover;
+    background-position: center;
 }
-.nosotros1 > .fondo1{
-    width: inherit;
-    height: inherit;
+/*Estilo del articulo*/
+.seccion-sobrenosotros > .art-nosotros{
+    width: 40%;
+    height: 90%;
+    background-color: rgba(24, 241, 241, 0.483);
+    color: white;
+    text-align: center;
+}
+/*estilo de las imagenes de seccion nosotros*/
+.art-nosotros .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.gallery-nosotros{
+    max-width: inherit;  
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    grid-template-rows: repeat(3,180px); 
+    gap: 5px;
+    background-color: rgba(24, 241, 241, 0.483);
+}
+.img-1 img{
+    grid-column-start: 1;
+    grid-column-end: 2;
     object-fit: cover;
-    opacity: 0.3;
+    object-position: bottom center;
+    height: 250px;
+    width: 100%;
+    border-radius: 8px;    
 }
-
-.nstext{
-    z-index: 9;
+.img-2 img{
+    object-fit:contain;
+    height: 380px;
+    width: 350px;    
 }
-.nsimagenes{
-    background-color: rgba(0, 72, 255, 0.641);
+.img-3 img{
+    align-self: flex-end;
+    object-fit:cover;
+    height: 300px;
+    width: 350px;    
 }
