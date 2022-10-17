@@ -1,32 +1,52 @@
-.seccion-header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.seccion-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: max-content;
+  background-color: transparent;
+  padding: 10px;
 }
 /*estilo del logo*/
-.seccion-header > .logo{
-    width: 15%;
+.seccion-header > .logo {
+  width: max-content;
 }
-.logo-img{
-    width: 100%;
-    height: fit-content;
-    object-fit: cover;
-    object-position: center;
+.logo-img {
+  height: 60px;
+  object-fit: cover;
+  object-position: center;
 }
 /*estilo de navegacion*/
-.navegacion{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.navegacion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
-.navbar{
-    width: 70%;
+.navbar {
+  display: flex;
+  gap: 10px;
 }
-.navegacion-btn{
-    width: 20%;
-    align-items: flex-end;
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+.navegacion-btn {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .seccion-header {
+    flex-direction: column;
+  }
+  .navegacion {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
