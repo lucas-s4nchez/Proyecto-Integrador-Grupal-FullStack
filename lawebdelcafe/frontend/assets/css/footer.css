@@ -1,8 +1,8 @@
-.footer{
+.seccion-footer{
+    background-color: antiquewhite;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
-    
+    flex-wrap: wrap;
 }
