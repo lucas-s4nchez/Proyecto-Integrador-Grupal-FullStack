@@ -1,0 +1,30 @@
+#fondoform {
+    background-image: url(../images/17.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divform {
+    width: 100%;
+    padding: 7em;
+}
+
+#imgform {
+    width: 100%;
+}
+
+#btnform {
+    background-color: #bd9653;
+}
+
+.form-control {
+    margin-top: 0.5em;
+}
+
+form {
+    background-color: #d9d9d9;
+    padding: 2em;
+    width: 100%;
+}
