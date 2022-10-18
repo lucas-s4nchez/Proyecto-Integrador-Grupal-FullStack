@@ -77,12 +77,30 @@
     <img class="productos-2" src="" alt="img-5">
   </section>
   <!--Seccion de formulario (destko-4)-->
-  <section class="seccion-formulario">
-    <div class="contenedor-form">
+  <section id="fondoform">
+    <div class="d-flex flex-column flex-md-row" id="divform">
       <form action="">
-        <!--crear formulario-->
+        <div class="row mb-3">
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Nombre" required>
+          </div>
+          <div class="col-6">
+            <input type="text" class="form-control" placeholder="Apellido" required>
+          </div>
+          <div>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
+          </div>
+          <div class="col-12">
+              <textarea cols="30" rows="10" class="form-control font-size-lg" placeholder="¿Sobre qué quieres hablar?" required></textarea>
+          </div>
+        </div>
+          <div class="col">
+              <button id= "btnform" type="submit" class="w-100 btn text-white">Enviar</button>
+          </div>
       </form>
-      <img src="assets/images/" alt="">
+      <div>
+        <img src="../assets/images/25.jpg" alt="" id="imgform">
+      </div>
     </div>
   </section>
   <!--Seccion de pie de página-->
