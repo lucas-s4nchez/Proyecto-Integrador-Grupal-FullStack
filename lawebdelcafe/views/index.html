@@ -54,21 +54,21 @@
           suscipit nulla corrupti ipsa et culpa dolorum error tempora omnis quia sit ratione!
         </p>
       </article>
-      
-        <div class="galeria">
-          <div class="imagen">
-            <img src="../assets/images/4.jpg" alt="imagen galeria">
-          </div>
-          <div class="imagen">
-            <img src="../assets/images/21.jpg" style="height: 100%;" alt="imagen galeria">
-          </div>
-          <div class="imagen">
-            <img src="../assets/images/18.jpg" alt="imagen galeria">
-          </div>
-          <div class="imagen">
-            <img src="../assets/images/12.jpg" alt="imagen galeria">
-          </div>
+
+      <div class="galeria">
+        <div class="imagen">
+          <img src="../assets/images/4.jpg" alt="imagen galeria">
         </div>
+        <div class="imagen">
+          <img src="../assets/images/21.jpg" style="height: 100%;" alt="imagen galeria">
+        </div>
+        <div class="imagen">
+          <img src="../assets/images/18.jpg" alt="imagen galeria">
+        </div>
+        <div class="imagen">
+          <img src="../assets/images/12.jpg" alt="imagen galeria">
+        </div>
+      </div>
     </div>
   </section>
 
@@ -78,15 +78,41 @@
     <!--definir carrusel-->
   </section>
   <!--Seccion de productos (destkop-3)-->
-  <section class="seccion-productos">
+  <section class="seccion-productos contenedor">
     <h1>Productos Destacados</h1>
-    <div class="productos-1">
-      <img src="../assets/images/malteada.jpg" alt="producto-1">
-      <img src="../assets/images/tartaFrutilla.jpg" alt="producto-4">
-      <img src="../assets/images/cafe-leche.jpg" alt="producto-2">
-      <img src="../assets/images/croissant.jpg" alt="producto-3">
+    <div>
+      <div class="productos-1">
+        <div>
+          <img src="../assets/images/malteada.jpg" alt="producto-1">
+          <h5>Malteada</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos corporis hic maxime facere laboriosam sunt
+            sed
+            velit libero tempora rerum.</p>
+        </div>
+        <div>
+          <img src="../assets/images/tartaFrutilla.jpg" alt="producto-4">
+          <h5>Tarta de Frutilla</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos corporis hic maxime facere laboriosam sunt
+            sed
+            velit libero tempora rerum.</p>
+        </div>
+        <div>
+          <img src="../assets/images/cafe-leche.jpg" alt="producto-2">
+          <h5>Café con Leche</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos corporis hic maxime facere laboriosam sunt
+            sed
+            velit libero tempora rerum.</p>
+        </div>
+        <div>
+          <img src="../assets/images/croissant.jpg" alt="producto-3">
+          <h5>Croissant</h5>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos corporis hic maxime facere laboriosam sunt
+            sed
+            velit libero tempora rerum.</p>
+        </div>
+      </div>
+      <img class="productos-2" src="../assets/images/5.jpg" alt="img-5">
     </div>
-    <img class="productos-2" src="../assets/images/cappuccino.jpg" alt="img-5">
   </section>
   <!--Seccion de formulario (destko-4)-->
   <section id="fondoform">
@@ -103,12 +129,13 @@
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" required>
           </div>
           <div class="col-12">
-              <textarea cols="30" rows="10" class="form-control font-size-lg" placeholder="¿Sobre qué quieres hablar?" required></textarea>
+            <textarea cols="30" rows="10" class="form-control font-size-lg" placeholder="¿Sobre qué quieres hablar?"
+              required></textarea>
           </div>
         </div>
-          <div class="col">
-              <button id= "btnform" type="submit" class="w-100 btn text-white">Enviar</button>
-          </div>
+        <div class="col">
+          <button id="btnform" type="submit" class="w-100 btn text-white">Enviar</button>
+        </div>
       </form>
       <div>
         <img src="../assets/images/25.jpg" alt="" id="imgform">
@@ -117,47 +144,49 @@
   </section>
   <!--Seccion de pie de página-->
   <footer>
-    <div  class="seccion-footer">
-    <img src="../assets/images/Logo.png" alt="">
+    <div class="seccion-footer">
+      <img src="../assets/images/Logo.png" alt="">
 
 
-    <ul>
-    <h3>Sobre nosotros</h3>       
-    <a href="#">Quienes somos</a><br>
-    <a href="#">Contactos</a><br>
-    <a href="#">Socios</a><br>
-    </ul>
-      
-    <ul>
-    <h3>Productos</h3>
-    <a href="#">Visión general</a><br>
-    <a href="#">Características</a><br>
-    <a href="#">Precios</a><br>
-    <a href="#">Lanzamientos </a><br>
-    </ul>
+      <ul>
+        <h3>Sobre nosotros</h3>
+        <a href="#">Quienes somos</a><br>
+        <a href="#">Contactos</a><br>
+        <a href="#">Socios</a><br>
+      </ul>
 
-    <ul>
-    <h3>Legal</h3>
-    <a href="#">Política de Cookies</a><br>
-    <a href="#">Política de privacidad</a><br>
-    <a href="#">Términos de servicio</a><br>
-    </ul>
+      <ul>
+        <h3>Productos</h3>
+        <a href="#">Visión general</a><br>
+        <a href="#">Características</a><br>
+        <a href="#">Precios</a><br>
+        <a href="#">Lanzamientos </a><br>
+      </ul>
 
-    <ul>    
-    <h3>Síguenos</h3>
-    <a href="https://www.facebook.com/profile.php?id=100086461826372"> <span class="fb"><i class="fa-brands fa-facebook"></i></span> Facebook</a><br>
-    <a href="https://twitter.com/LaWebdelCafe"> <span class="tw"><i class="fa-brands fa-twitter"></i></span> Twitter</a><br>
+      <ul>
+        <h3>Legal</h3>
+        <a href="#">Política de Cookies</a><br>
+        <a href="#">Política de privacidad</a><br>
+        <a href="#">Términos de servicio</a><br>
+      </ul>
 
-    <h3>Contacto</h3>
-    <p>lawebdelcafe@gmail.com</p>
-    </ul> 
+      <ul>
+        <h3>Síguenos</h3>
+        <a href="https://www.facebook.com/profile.php?id=100086461826372"> <span class="fb"><i
+              class="fa-brands fa-facebook"></i></span> Facebook</a><br>
+        <a href="https://twitter.com/LaWebdelCafe"> <span class="tw"><i class="fa-brands fa-twitter"></i></span>
+          Twitter</a><br>
 
-   </div>
+        <h3>Contacto</h3>
+        <p>lawebdelcafe@gmail.com</p>
+      </ul>
+
+    </div>
     <div class="derechos">
-        <p>© 2022 La Web del Café. Todos los derechos reservados 2022</p>
+      <p>© 2022 La Web del Café. Todos los derechos reservados 2022</p>
     </div>
 
-</footer>
+  </footer>
 </body>
 
 </html>
