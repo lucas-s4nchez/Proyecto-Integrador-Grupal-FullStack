@@ -12,6 +12,7 @@
     color: white;
 }
 .mirar>.btn-mirar{
+    font-size: 22px;
     display: inline-block;
     background: #F0EAD2;
     border-radius: 8px;
