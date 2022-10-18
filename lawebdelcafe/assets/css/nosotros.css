@@ -61,7 +61,7 @@ img {
   .galeria .imagen:nth-child(2) img {
     -o-object-position: center;
     object-position: center;
-    height: 420px;
+    height: 80%;
     width: 100%;
   }
   .galeria .imagen:nth-child(3) {
@@ -75,16 +75,17 @@ img {
     -o-object-position: center;
     object-position: center;
     width: 100%;
-    height: 70%;
+    height: 80%;
   }
   .galeria .imagen:nth-child(4) {
     grid-column-start: 2;
-    grid-column-end: 2;
+    grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
   }
   .galeria .imagen:nth-child(4) img {
-    height: 200px;
+    margin-top: 10px;
+    height: 80%;
     width: 100%;
     -o-object-position: center;
     object-position: center;
