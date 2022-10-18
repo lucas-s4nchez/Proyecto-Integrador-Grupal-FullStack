@@ -1,7 +1,7 @@
 .seccion-destkop1 {
     height: 100vh;
-    background-image: linear-gradient(to bottom, #000000c9, #000000c0),
-        url("https: //i.ibb.co/zFdKZyx/pexels-juan-pablo-serrano-arenas-894695-1.jpg");
+    background-image: linear-gradient(to bottom, #00000036, #7575755e),
+    url("https://i.ibb.co/zFdKZyx/pexels-juan-pablo-serrano-arenas-894695-1.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -9,8 +9,15 @@
     width: 40%;
     margin-top: 10%;
     margin-left: 5%;
-    background-color: rgb(92, 141, 185);
+    color: white;
 }
 .mirar>.btn-mirar{
-    margin-left: 40%;
+    display: inline-block;
+    background: #F0EAD2;
+    border-radius: 8px;
+    color: #76520E;
+    text-decoration: none;
+    padding: 12px 60px;
+    margin-left: 30%;
+    margin-top: 10%;
 }
