@@ -1,111 +1,109 @@
 /*contenedor de la seccion nosotros*/
 /*contenedor de la seccion sobre nosotros*/
-.seccion-fondo{
-    background-image: url(../images/10.jpg);
-    background-size: cover;
-    background-position: bottom;
+.seccion-fondo {
+  background-image: url(../images/10.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
-.seccion-sobrenosotros{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: max-content;
-    padding: 20px;
-    gap: 10px;
+.seccion-sobrenosotros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  padding: 20px;
+  gap: 10px;
 }
 @media (max-width: 768px) {
-      .seccion-sobrenosotros{
-        flex-direction:column ;
-        width: 100%;
-      }  
-      .seccion-sobrenosotros > .art-nosotros{
-        min-width:100%;
-        color:white;
-    }
-    .seccion-sobrenosotros > .galeria{
-        max-width: 100%;
-    }
-}
-.seccion-sobrenosotros > .art-nosotros{
-    max-width:50%;
-    color:white;
-}
-.seccion-sobrenosotros > .galeria{
+  .seccion-sobrenosotros {
+    flex-direction: column;
+    width: 100%;
+  }
+  .seccion-sobrenosotros > .art-nosotros {
+    min-width: 100%;
+    color: white;
+  }
+  .seccion-sobrenosotros > .galeria {
     max-width: 100%;
+  }
 }
-
+.seccion-sobrenosotros > .art-nosotros {
+  max-width: 50%;
+  color: white;
+}
+.seccion-sobrenosotros > .galeria {
+  max-width: 100%;
+}
 
 /*Galeria de sobre nosotros*/
 img {
-    display: block;
-    height: 100%;
-    max-width: 100%;
-    margin: 0;    
-  }
-  .contenedor {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-  } 
-  .galeria {
-    display: grid;
-    gap: 5px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 200px);
-  }
-  
-  .galeria .imagen img {
-    /*height: 200px;*/
-    -o-object-fit: cover;
-    object-fit: cover;
-    /* width: 300px; */
-    border-radius: 8px;
-  }
-  .galeria .imagen:first-child {
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  .galeria .imagen:first-child img {
-    min-height: 200px;
-    width: 100%;
-    -o-object-position: bottom;
-    object-position: bottom;
-  }
-  .galeria .imagen:nth-child(2) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-  }
-  .galeria .imagen:nth-child(2) img {
-    -o-object-position: center;
-    object-position: center;
-    min-height: 100%;
-    width: 100%;
-  }
-  .galeria .imagen:nth-child(3) {
-    /* grid-column: 1/2; */
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
-  }
-  .galeria .imagen:nth-child(3) img {
-    -o-object-position: center;
-    object-position: center;
-    width: 100%;
-    min-height: 405px;
-  }
-  .galeria .imagen:nth-child(4) {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-  }
-  .galeria .imagen:nth-child(4) img {
-    min-height: 200px;
-    width: 100%;
-    -o-object-position: center;
-    object-position: center;
-  }
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+.contenedor {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.galeria {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 200px);
+}
 
+.galeria .imagen img {
+  /*height: 200px;*/
+  -o-object-fit: cover;
+  object-fit: cover;
+  /* width: 300px; */
+  border-radius: 8px;
+}
+.galeria .imagen:first-child {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.galeria .imagen:first-child img {
+  min-height: 200px;
+  width: 100%;
+  -o-object-position: bottom;
+  object-position: bottom;
+}
+.galeria .imagen:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.galeria .imagen:nth-child(2) img {
+  -o-object-position: center;
+  object-position: center;
+  min-height: 100%;
+  width: 100%;
+}
+.galeria .imagen:nth-child(3) {
+  /* grid-column: 1/2; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.galeria .imagen:nth-child(3) img {
+  -o-object-position: center;
+  object-position: center;
+  width: 100%;
+  min-height: 405px;
+}
+.galeria .imagen:nth-child(4) {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.galeria .imagen:nth-child(4) img {
+  min-height: 200px;
+  width: 100%;
+  -o-object-position: center;
+  object-position: center;
+}
