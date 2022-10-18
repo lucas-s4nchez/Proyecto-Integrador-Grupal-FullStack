@@ -1,2 +1,0 @@
-#showProducts()
-#show_Comments()
