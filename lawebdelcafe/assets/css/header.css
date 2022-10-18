@@ -41,6 +41,14 @@
   display: flex;
   gap: 10px;
 }
+
+#colornav a{
+    background-color: #F0EAD2;
+    color: #76520E;
+    border: none;
+}
+
+
 @media (max-width: 768px) {
   .seccion-header {
     flex-direction: column;
