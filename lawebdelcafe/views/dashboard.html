@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" title="Inicio" href="#"><i class="fa-solid fa-house"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " aria-current="page" title="Productos" href="./admin-producto.html"><i
+          class="fa-solid fa-mug-saucer"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " aria-current="page" title="Usuarios" href="./admin-usuario.html"><i
+          class="fa-solid fa-user"></i></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " aria-current="page" title="Cerrar Sesion" href="./index.html"><i
+          class="fa-solid fa-right-from-bracket"></i></i></a>
+    </li>
+  </ul>
+  <main class="container py-5">
+    <div class="overflow-scroll">
+      <h2>Usuarios</h2>
+      <table class="table table-responsive table-striped">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+            <td>dhuisyd871#hash914yh</td>
+            <td class="d-flex gap-2">
+              <button class="btn btn-danger">Delete</button>
+              <button class="btn btn-primary">Update</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Smith</td>
+            <td>Thomas</td>
+            <td>smith@example.com</td>
+            <td>dopksyd871#hash914yh</td>
+            <td class="d-flex gap-2">
+              <button class="btn btn-danger">Delete</button>
+              <button class="btn btn-primary">Update</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Merry</td>
+            <td>Jim</td>
+            <td>merry@example.com</td>
+            <td>dhassyd871#hash914yh</td>
+            <td class="d-flex gap-2">
+              <button class="btn btn-danger">Delete</button>
+              <button class="btn btn-primary">Update</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <h2>Productos</h2>
+      <table class="table table-responsive table-striped">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th class="d-inline-block" style="width: 300px;">Description</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Category</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Cappuccino</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ab consectetur consequuntur animi.
+            </td>
+            <td>450</td>
+            <td>600</td>
+            <td>bebida</td>
+            <td class="d-flex gap-2">
+              <button class="btn btn-danger">Delete</button>
+              <button class="btn btn-primary">Update</button>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Americano</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ab consectetur consequuntur animi.
+            </td>
+            <td>350</td>
+            <td>500</td>
+            <td>bebida</td>
+            <td class="d-flex gap-2">
+              <button class="btn btn-danger">Delete</button>
+              <button class="btn btn-primary">Update</button>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Chocotorta</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus ab consectetur
+              consequuntur animi.
+            </td>
+            <td>400</td>
+            <td>10</td>
+            <td>comida</td>
+            <td class="d-flex gap-2">
+              <button class="btn btn-danger">Delete</button>
+              <button class="btn btn-primary">Update</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+/*Definicion de grid*/
+.grid-container{      
+    display: grid;
+    grid-template:                  /*acá defino el alto de las filas*/
+                    "header   header"  auto
+                    "destkop1 destkop1"auto
+                    "destkop2 destkop2"auto
+                    "destkop3 destkop3"auto
+                    "destkop4 destkop4"auto
+                    "destkop5 destkop5"auto
+                    "footer   footer"  auto
+                   / auto     auto; /*después de la barra "/" defino el ancho de las columnas-->*/ 
+}
+
+/*asigna cada area usando los nombres de "class" definido en html*/
+.seccion-header{
+    grid-area: header header;
+    z-index: 2;
+}
+.seccion-destkop1{
+    grid-area: destkop1;
+    z-index: 10;
+}
+.seccion-sobrenosotros{
+    grid-area: destkop2;
+}
+.seccion-galeria{
+    grid-area: destkop3;
+}
+.seccion-productos{
+    grid-area: destkop4;
+}
+.seccion-formulario{
+    grid-area: destkop2;
+}
+.seccion-footer{
+    grid-area: footer;
+}

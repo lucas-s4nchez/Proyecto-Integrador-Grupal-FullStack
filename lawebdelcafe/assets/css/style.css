@@ -1,0 +1,21 @@
+/*importaciones de archivos que contienen los estilos*/
+@import url(colors.css);
+@import url(gridd.css);
+@import url(header.css);
+@import url(destkop1.css);
+@import url(nosotros.css);
+@import url(productos.css);
+@import url(galeria.css);
+@import url(formulario.css);
+@import url(footer.css);
+
+* {
+  /*quitar los rellenos y bordes que tenga el navegador*/
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
