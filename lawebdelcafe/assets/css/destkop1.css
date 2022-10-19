@@ -9,16 +9,31 @@
     width: 40%;
     margin-top: 10%;
     margin-left: 5%;
-    color: white;
 }
 .mirar>.btn-mirar{
     font-size: 22px;
     display: inline-block;
-    background: #F0EAD2;
+    background: var(--background-color);
     border-radius: 8px;
-    color: #76520E;
+    color: var(--main-color);
     text-decoration: none;
     padding: 12px 60px;
     margin-left: 30%;
     margin-top: 10%;
+}
+.mirar>h1{
+    color: var(--background-color);
+    font-size: 60px;
+    text-align: center;
+}
+@media (max-width:768px) {
+    .mirar>h1{
+        font-size: 40px;
+        width: 90%;
+    }
+    .mirar{
+        text-align: left;
+        min-width: 100%;
+        margin-left: 0;
+    }
 }

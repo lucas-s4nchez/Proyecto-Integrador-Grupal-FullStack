@@ -1,9 +1,9 @@
 #gal{
     text-align: center;
-    color: rgb(40, 25, 7);
-    padding-bottom: 30px;
-    padding-top: 20px;
-    
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: var(--main-color);
+    font-size: 50px;
   }
   .seccion-galeria{
     background-image: url(../images/back-carrusel.jpg);
@@ -43,6 +43,7 @@
 
 .img{
     object-fit: cover;
+    width: 100%;
 
 }
 
