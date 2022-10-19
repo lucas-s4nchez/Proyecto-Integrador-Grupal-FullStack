@@ -22,19 +22,38 @@
   .slide{
       border: 20px solid rgb(47, 12, 12);
       margin: 0 auto;
-      max-height: 500px;
-      width: 50%;
+      height: 700px;
+      width: 100%;
+      overflow-y: hidden;
   }
   .carousel-item{
       min-height:200px;
-      max-height:450px;
+      height:700px;
   /*height: 100%;
   width: auto;*/
       object-fit: cover;
+
   }
 
   .carousel-inner{
   min-height:200px;
-  max-height:500px
+  height:700px
   /*width: 300px;*/
   }
+
+.img{
+    object-fit: cover;
+
+}
+
+@media(max-width:768px){
+    .carousel-item{
+        height: 400px;
+    }
+    .carousel-inner{
+        height:400px;
+    }
+    .slide{
+        height:400px;
+    }
+}
