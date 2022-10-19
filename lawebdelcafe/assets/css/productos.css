@@ -2,7 +2,17 @@
     background-image: url(../images/1.png);
     display: flex;
     gap: 20px;
-    padding-block: 30px;
+    padding-block: 100px;
+    margin-bottom: 20px;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 0% 115%;
+    color: var(--main-color);
+}
+
+.seccion-productos h1{
+    color: var(--main-color);
+    font-size: 50px;
 }
 
 .productos-grid{
@@ -15,8 +25,9 @@
 .productos-1{
    width: 100%;
    display: grid;
-   grid-template-columns: repeat(2, 50%);
+   grid-template-columns: repeat(2, 1fr);
    gap: 10px;
+   
 }
 
 .productos-2{
@@ -35,12 +46,26 @@
     object-position: center center;
 }
 
+.productos-card p{
+    font-weight: 600;
+}
+
 @media(max-width: 768px){
     .seccion-productos{
         flex-direction: column;
-    
+        object-fit: contain;
+        object-position: bottom;
+        padding-block: 20px;
+        background-image: none; 
     }
     .productos-2{
         min-width: 100%;
+        min-height: 500px;
+    }
+    .productos-1{
+        width: 100%;
+    }
+    .productos-card{
+        padding-bottom: 30px;
     }
 }
