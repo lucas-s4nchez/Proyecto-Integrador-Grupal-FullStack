@@ -1,0 +1,46 @@
+.seccion-productos{
+    background-image: url(../images/1.png);
+    display: flex;
+    gap: 20px;
+    padding-block: 30px;
+}
+
+.productos-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.productos-1{
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, 50%);
+   gap: 10px;
+}
+
+.productos-2{
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 50%;
+    min-height: 100%;
+    border-radius: 15px;    
+}
+
+.productos-card img{
+    max-height: 50%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+@media(max-width: 768px){
+    .seccion-productos{
+        flex-direction: column;
+    
+    }
+    .productos-2{
+        min-width: 100%;
+    }
+}
