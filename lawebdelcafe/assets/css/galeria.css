@@ -1,0 +1,40 @@
+#gal{
+    text-align: center;
+    color: rgb(40, 25, 7);
+    padding-bottom: 30px;
+    padding-top: 20px;
+    
+  }
+  .seccion-galeria{
+    background-image: url(../images/back-carrusel.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  .carousel-indicators li {
+      background-color: brown;
+  }
+  
+  .carousel-indicators .active {
+      background-color: brown;
+          }
+  .slide{
+      border: 20px solid rgb(47, 12, 12);
+      margin: 0 auto;
+      max-height: 500px;
+      width: 50%;
+  }
+  .carousel-item{
+      min-height:200px;
+      max-height:450px;
+  /*height: 100%;
+  width: auto;*/
+      object-fit: cover;
+  }
+
+  .carousel-inner{
+  min-height:200px;
+  max-height:500px
+  /*width: 300px;*/
+  }
