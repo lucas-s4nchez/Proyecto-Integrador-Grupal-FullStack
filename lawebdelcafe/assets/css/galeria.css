@@ -1,5 +1,5 @@
 #gal{
-    color: #f0ead2;
+    color: var(--main-color);
     text-align: center;
     margin-bottom: 30px;
     margin-top: 20px;
