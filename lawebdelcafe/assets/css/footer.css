@@ -32,6 +32,9 @@ a {
   line-height: 40px;
   font-size: 17px;
 }
+a:hover {
+  color: var(--main-color);
+}
 .seccion-footer p {
   color: white;
   font-size: 17px;
