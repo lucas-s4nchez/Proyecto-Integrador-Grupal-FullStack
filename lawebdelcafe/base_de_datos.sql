@@ -37,7 +37,7 @@ CREATE TABLE usuarios
 id_usuario int not null auto_increment,
 nombre varchar(20) not null,
 apellido varchar(20) not null,
-email varchar(20),
+email varchar(20) unique not null,
 contraseña varchar(15),
 rol varchar(20),
 CONSTRAINT id_usuario_pk PRIMARY KEY (id_usuario)
