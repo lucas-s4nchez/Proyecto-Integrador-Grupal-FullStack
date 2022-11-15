@@ -1,0 +1,45 @@
+.seccion-destkop1 {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #00000036, #0a0a0a9c),
+    url("https://i.ibb.co/zFdKZyx/pexels-juan-pablo-serrano-arenas-894695-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .seccion-destkop1 {
+    max-height: 800px;
+  }
+}
+.seccion-destkop1 > .mirar {
+  padding-left: 20px;
+  margin-top: 90px;
+}
+.mirar > .btn-mirar {
+  font-size: 22px;
+  display: inline-block;
+  background: var(--background-color);
+  border-radius: 8px;
+  color: var(--main-color);
+  text-decoration: none;
+  padding: 12px 60px;
+  margin-top: 30px;
+}
+.mirar > .btn-mirar:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+.mirar > h1 {
+  color: var(--background-color);
+  font-size: 60px;
+}
+@media (max-width: 768px) {
+  .mirar > h1 {
+    font-size: 40px;
+    width: 90%;
+  }
+  .mirar {
+    text-align: left;
+    min-width: 100%;
+    margin-left: 0;
+  }
+}

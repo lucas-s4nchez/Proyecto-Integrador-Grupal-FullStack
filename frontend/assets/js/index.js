@@ -1,7 +1,6 @@
 const inputNombre = document.getElementById("name");
 const inputEmail = document.getElementById("email");
 const inputText = document.getElementById("textarea");
-const form = document.getElementById("fondoform");
 const form = document.getElementById("message-form");
 const btnSubmit = document.getElementById("btn-enviar");
 
