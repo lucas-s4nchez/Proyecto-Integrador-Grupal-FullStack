@@ -6,7 +6,7 @@
     font-size: 50px;
 }
 .seccion-galeria{
-    background-image: url("https://i.ibb.co/Yk7w2w5/anastasia-zhenina-Bot-Fj-K3-Uu-Ao-unsplash-1.jpg");
+    background-image: url(../images/back-carrusel.jpg);
     background-size: cover;
     background-position: bottom;
     padding-bottom: 50px;
