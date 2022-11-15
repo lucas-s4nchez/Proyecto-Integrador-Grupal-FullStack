@@ -1,30 +1,49 @@
 #fondoform {
-    background-image: url(../images/17.jpg);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url(../images/17.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #divform {
-    width: 100%;
-    padding: 7em;
+  width: 100%;
 }
 
 #imgform {
-    width: 100%;
+  width: 100%;
 }
 
-#btnform {
-    background-color: #bd9653;
+#btn-enviar {
+  background-color: #bd9653;
 }
 
 .form-control {
-    margin-top: 0.5em;
+  margin-top: 0.5em;
+}
+.formField small {
+  font-weight: 700;
+}
+.formField.error input {
+  border: 1px solid #dc3545;
+}
+.formField.error textarea {
+  border: 1px solid #dc3545;
+}
+.formField.success input {
+  border: 1px solid #28a745;
+}
+.formField.success textarea {
+  border: 1px solid #28a745;
+}
+.error {
+  color: #dc3545;
+}
+.success {
+  color: #28a745;
 }
 
 form {
-    background-color: #d9d9d9;
-    padding: 2em;
-    width: 100%;
+  padding: 2em;
+  width: 100%;
 }
