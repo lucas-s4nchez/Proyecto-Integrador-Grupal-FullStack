@@ -63,10 +63,10 @@ def menuPrincipal():
     opcionCorrecta= False
     while(not opcionCorrecta):
       print("=== MENÜ PRINCIPAL ===")
-      print("1*- Listar clientes")
-      print("2*- Registrar cliente")
-      print("3*- Actualizar cliente")
-      print("4*- Eliminar cliente")
+      print("1*- Listar usuarios")
+      print("2*- Registrar usuario")
+      print("3*- Actualizar usuario")
+      print("4*- Eliminar usuario")
       print("5*- Salir")
       print("===")
       opcion =int(input("Seleccione una opción: "))
