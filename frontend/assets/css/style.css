@@ -8,6 +8,7 @@
 @import url(galeria.css);
 @import url(formulario.css);
 @import url(footer.css);
+@import url(sobrenosotros.css);
 
 * {
   /*quitar los rellenos y bordes que tenga el navegador*/
