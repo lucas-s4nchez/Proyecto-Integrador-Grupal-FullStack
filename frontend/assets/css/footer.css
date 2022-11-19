@@ -6,17 +6,17 @@
   flex-wrap: wrap;
   gap: 20px;
   padding: 30px 30px;
-  overflow-x: hidden; /* para que la imagen no rompa la pagina en una pantalla peque*/
+  overflow-x: hidden; 
 }
 
 .seccion-footer img {
-  /*le agregue un width de 100%*/
+
   width: 100%;
   max-width: 300px;
   max-height: 250px;
 }
 .seccion-footer ul {
-  /*modifique el padding de las ul*/
+
   padding: 0;
 }
 span {
